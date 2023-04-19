@@ -3,3 +3,7 @@ Khi khới tạo local repo thành công sẽ xuất hiện 1 thư mục .git �
 cách kết nối remote repo với local repo lại với nhau: dùng lệnh git remote add origin kèm url đường dẫn tới source code trên remote.
 cấc bước để đẩy code lên remote repo
 B1: ghi lệnh: git + dấu cách + add + tên file ( đẩy các file có sự thay đổi, đẩy từng file) (kiểm tra xem có đẩy lên được chưa thì dùng git status)
+* khi xóa nhưng cái vừa đẩy lên bấm git reset*
+B2: tạo ra commit ddeee ghi chú lại sự thay đổi code, chung ra dùng lệnh git comit -m "lời nhắn"
+(kiểm tra xem có chưa và thời gian dùng lệnh git log)
+B3: * Đẩy lên remote repo* lệnh git push -u origin + tên nhánh để kết nối với remote repo. lần sau chỉ cần dùng lệnh git push origin
