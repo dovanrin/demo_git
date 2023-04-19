@@ -7,3 +7,10 @@ B1: ghi lệnh: git + dấu cách + add + tên file ( đẩy các file có sự 
 B2: tạo ra commit ddeee ghi chú lại sự thay đổi code, chung ra dùng lệnh git comit -m "lời nhắn"
 (kiểm tra xem có chưa và thời gian dùng lệnh git log)
 B3: * Đẩy lên remote repo* lệnh git push -u origin + tên nhánh để kết nối với remote repo. lần sau chỉ cần dùng lệnh git push origin
+ B4: cách để lấy code trên git  xuống. khi nào dùng lệnh git clone + đường dẫn.
+để cập nhật code thì đung git pull
+Khi muốn chỉnh sửa một số code mà sợ ảnh hưởng tới code củ thì có thể commit lại đoạn code đó. sau đó chỉnh sửa. khi muốn quay vể lại đoạn code trước đó ( trước khi chỉnh sửa ) dùng git stash
+Các bước để tạo nhanh
+B1: dùng lệnh git branch + tên nhánh, muốn kiểm tra có nhánh chưa thì dùng lệnh git git branch.
+khi di chuyển qua nhanh khác thì dùng git checkout + tên nhánh.
+vừa tạo và vừa chuyển qua 1 nhánh mới: git checkout -b + tên nhánh
