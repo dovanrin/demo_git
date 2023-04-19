@@ -7,3 +7,6 @@ B1: ghi lệnh: git + dấu cách + add + tên file ( đẩy các file có sự 
 B2: tạo ra commit ddeee ghi chú lại sự thay đổi code, chung ra dùng lệnh git comit -m "lời nhắn"
 (kiểm tra xem có chưa và thời gian dùng lệnh git log)
 B3: * Đẩy lên remote repo* lệnh git push -u origin + tên nhánh để kết nối với remote repo. lần sau chỉ cần dùng lệnh git push origin
+Khi muốn muốn add nhánh phụ váo nhánh chính thì dùng git merge + tên nhánh vào.
+lệnh: git branch -a dùng để xem tất cả các nhánh ở main và trên git.
+lệnh git fetch để loat lại toàn bộ thay đổi trên các nhánh
